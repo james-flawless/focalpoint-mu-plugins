@@ -23,9 +23,15 @@ deployment.
 
 ### Focal Point EasyCoach LTI
 
-Planned shared integration between the Focal Point learner sites and
+Shared integration foundation between the Focal Point learner sites and
 EasyCoach using LTI 1.3, OpenID Connect, OAuth 2.0, JWT and Assignment and
 Grade Services (AGS).
+
+- Bootstrap: `focalpoint-easycoach-lti.php`
+- Implementation and documentation: `focalpoint-easycoach-lti/`
+
+Version `0.1.0` registers fail-closed placeholder routes only. It does not
+perform a launch, issue an access token, expose keys, or accept a result.
 
 The security and protocol implementation belongs in this repository. Learner
 interface components remain in the `rayner_focalpoint` theme, and KPI/reporting
